@@ -1,9 +1,11 @@
 # Algorithm Idea
 
 
+
 # Complexity
-Time: O()
-Space:O()
+
+- Time: O()
+- Space:O()
 
 # Results
 
