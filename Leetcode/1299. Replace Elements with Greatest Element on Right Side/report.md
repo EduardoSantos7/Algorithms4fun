@@ -24,7 +24,7 @@
     - Time: O(n^2)
     - Space:O(1)
 
-1) Brute Force
+2) Optimized
 
     - Time: O(n^2)
     - Space:O(1)
