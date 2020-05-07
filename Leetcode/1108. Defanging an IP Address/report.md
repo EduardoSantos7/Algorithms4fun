@@ -5,7 +5,7 @@ Traverse the string and replace `.` by `[.]`
 # Complexity
 
 - Time: O(N)
-- Space:O(N) (Python creates a new string because string are not mutable)
+- Space:O(N) (Python, Go creates a new string because string are not mutable)
 
 # Results
 
