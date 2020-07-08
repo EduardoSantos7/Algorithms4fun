@@ -1,12 +1,12 @@
 # Algorithm Idea
 
-
+Move the biggest number to the top.
 
 # Complexity
 
-- Time: O()
+- Time: O(n^2)
 
-- Space:O()
+- Space:O(1)
 
 # Results
 
