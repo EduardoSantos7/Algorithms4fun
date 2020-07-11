@@ -6,6 +6,6 @@ Sort the array and iterate each number at each iteration we will use 2 pointers 
 
 - Time: O(N^2)
 
-- Space:O(N) - > Due to the sort algorithm
+- Space:O(N)
 
 # Results
