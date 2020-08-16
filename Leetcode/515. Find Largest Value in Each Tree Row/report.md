@@ -21,3 +21,9 @@ C++)
     - Runtime: 8 ms, faster than 99.96% of C++ online submissions for Find Largest Value in Each Tree Row.
 
     - Memory Usage: 22.7 MB, less than 9.78% of C++ online submissions for Find Largest Value in Each Tree Row.
+
+Go)
+
+    - Runtime: 8 ms, faster than 94.64% of Go online submissions for Find Largest Value in Each Tree Row.
+
+    - Memory Usage: 6.1 MB, less than 17.86% of Go online submissions for Find Largest Value in Each Tree Row.
