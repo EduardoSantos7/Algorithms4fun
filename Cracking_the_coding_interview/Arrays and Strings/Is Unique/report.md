@@ -16,4 +16,4 @@ Other approach is assuming the chars are ascii we can use an integer (8 bits) to
 
 - Time: O(N)
 
-- Space:O(c) -> the length of the set of unique chars, we can use an array and assume that the array hass a len of 128 for ascii chars and say thatt the space complexity is constant.
+- Space:O(c) C is the length of the set of unique chars, we can use an array and assume that the array hass a len of 128 for ascii chars and say thatt the space complexity is constant.
