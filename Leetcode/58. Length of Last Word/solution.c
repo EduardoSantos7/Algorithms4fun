@@ -1,5 +1,3 @@
-#include<stdio.h>
-
 int lengthOfLastWord(char * s){
     char * p = s;
     int counter = 0;
