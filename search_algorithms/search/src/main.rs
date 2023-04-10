@@ -23,11 +23,9 @@ fn binary_search<T: PartialEq + PartialOrd + Copy>(list: &[T], target: T) -> Opt
         let mid = (right - left) / 2 + left;
         if list[mid] > target {
             right = mid - 1;
-        }
-        else if list[mid] < target {
+        } else if list[mid] < target {
             left = mid + 1;
-        }
-        else {
+        } else {
             return Some(mid);
         }
     }
@@ -76,32 +74,29 @@ fn jump_search<T: PartialEq + PartialOrd + Copy>(list: &[T], target: T) -> Optio
  * The idea is to start near to the target instead the middle.
  */
 
-fn interpolation_search(list: &[i32], target: i32) -> Option<usize>{
+fn interpolation_search(list: &[i32], target: i32) -> Option<usize> {
     let mut left: usize = 0;
     let mut right = list.len() as usize - 1;
     let t = target - list[left];
 
     while left <= right {
-        let pos = left + (((t as usize) * (right - left) / (list[right] - list[left]) as usize ));
+        let pos = left + ((t as usize) * (right - left) / (list[right] - list[left]) as usize);
         if list[pos] > target {
             right = pos - 1;
-        }
-        else if list[pos] < target {
+        } else if list[pos] < target {
             left = pos + 1;
-        }
-        else {
+        } else {
             return Some(pos);
         }
     }
     None
-
 }
 
 /**
  * Complexity: Time: O(log N), Space: O(1)
  */
 fn exponential_search<T: PartialEq + PartialOrd + Copy>(list: &[T], target: T) -> Option<usize> {
-    if list[0] == target{
+    if list[0] == target {
         return Some(0);
     }
     // Find a sub array where the targett could be
@@ -111,27 +106,22 @@ fn exponential_search<T: PartialEq + PartialOrd + Copy>(list: &[T], target: T) -
     }
 
     // Do Binary Search in the sub array
-    let mut left = i/2;
+    let mut left = i / 2;
     let mut right = i;
 
     while left <= right {
         let mid = (right - left) / 2 + left;
         if list[mid] > target {
             right = mid - 1;
-        }
-        else if list[mid] < target {
+        } else if list[mid] < target {
             left = mid + 1;
-        }
-        else {
+        } else {
             return Some(mid);
         }
     }
 
     None
 }
-
-
-
 
 fn main() {
     let nums = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
