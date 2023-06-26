@@ -1,6 +1,6 @@
 # Algorithm Idea
 
-Create a list with the numbers from 1 to n + 1 if they are divisble by 3, 5, 7 and sum up the numbers in it. return that value
+Create a list with the numbers from 1 to n + 1. if they are divisble by 3, 5, 7 and sum up the numbers in it. return that value
 
 # Complexity
 
