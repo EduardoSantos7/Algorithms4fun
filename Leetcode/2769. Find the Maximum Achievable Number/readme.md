@@ -1,6 +1,6 @@
 # Algorithm Idea
 
-The max number will be always the number plus two times t.
+The max number will be always the number plus two times t
 
 # Complexity
 
