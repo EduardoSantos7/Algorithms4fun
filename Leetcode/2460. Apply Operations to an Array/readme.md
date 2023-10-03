@@ -17,7 +17,7 @@ After iterate all the items resize the array wih only the numbers different to z
 
 Approach 1)
 
-- Time: O(n*logn)
+- Time: O(n*log*n)
 
 - Space:O(n)
 
