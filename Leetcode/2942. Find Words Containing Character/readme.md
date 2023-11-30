@@ -1,6 +1,6 @@
 # Algorithm Idea
 
-Iterate the array of words, and for every word check if the input string is contained in it, if it's so append the word's index to an array. Return that array.
+Iterate over the array of words, and for every word check if the input string is contained in it, if it's so append the word's index to an array. Return that array.
 
 # Complexity
 
