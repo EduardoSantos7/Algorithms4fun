@@ -1,6 +1,6 @@
 # Algorithm Idea
 
-Per each number in the array check the next numbers to see if the sum is saller than target if so increment counter
+Per each number in the array check the next numbers to see if the sum is smaller than target if so increment counter
 
 # Complexity
 
