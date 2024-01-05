@@ -7,6 +7,7 @@ class Solution:
         # the length with a global maximum
         longest_distance = 0
         current_distance = 0
+
         for bit in binary_n:
             if bit == '1' and current_distance == 0:
                 current_distance += 1
