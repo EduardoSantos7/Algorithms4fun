@@ -10,7 +10,6 @@ Iterate the string and for each character sum up the number of pixels,and if it'
 
 # Results
 
-
 Runtime
 43
 ms
