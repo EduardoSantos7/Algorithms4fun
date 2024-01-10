@@ -7,5 +7,5 @@ class Solution:
                 num2 += i
             else:
                 num1 += i
-        
+
         return num1 - num2
