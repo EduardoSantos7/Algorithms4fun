@@ -10,13 +10,13 @@ Iterate the string and for each character sum up the number of pixels,and if it'
 
 # Results
 
-
 Runtime
 43
 ms
 Beats
 32.85%
 of users with Python3
+
 Memory
 17.36
 MB
