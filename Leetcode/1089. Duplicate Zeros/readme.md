@@ -16,16 +16,14 @@ Finally, the function loops through the vector from right to left and copies eac
 # Results
 
 Runtime
-2
-ms
+2 ms
 
 Beats
 90.74%
 of users with Rust
 
 Memory
-2.16
-MB
+2.16 MB
 
 Beats
 77.78%
