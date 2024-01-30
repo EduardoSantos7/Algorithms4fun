@@ -1,6 +1,5 @@
 # Algorithm Idea
 
-
 # Complexity
 
 - Time: O(n)
