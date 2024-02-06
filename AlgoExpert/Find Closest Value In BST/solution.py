@@ -5,6 +5,7 @@ def findClosestValueInBst(tree, target):
 def findClosestValueInBstHelper(root, target, closest):
     if not root:
         return closest.value
+
     if abs(target - root.value) < abs(target - closest.value):
         closest = root
 
