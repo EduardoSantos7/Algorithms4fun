@@ -10,6 +10,8 @@ The idea is to iterate the list of logs to construct a dictionary where the user
 
 # Results
 
+Python)
+
 Runtime
 699
 ms
@@ -23,3 +25,48 @@ MB
 Beats
 63.08%
 of users with Python3
+
+Rust)
+
+Runtime
+60
+ms
+Beats
+42.86%
+of users with Rust
+Memory
+5.15
+MB
+Beats
+14.29%
+of users with Rust
+
+Go)
+
+Runtime
+113
+ms
+Beats
+83.33%
+of users with Go
+Memory
+8.48
+MB
+Beats
+36.67%
+of users with Go
+
+C++)
+
+Runtime
+159
+ms
+Beats
+95.17%
+of users with C++
+Memory
+89.01
+MB
+Beats
+64.02%
+of users with C++
