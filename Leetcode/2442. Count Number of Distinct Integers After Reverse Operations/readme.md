@@ -1,7 +1,6 @@
 # Algorithm Idea
 
-Per every number in the initial array make it a string, reverse it, and cast it to int again. Insert it at the end of the array. After iterate all the numbers make it a set and return the length
-
+Per every number in the initial array make it a string, reverse it, and cast it to int again. Insert it at the end of the array. After iterate all the numbers make it a set and return the lengt
 
 # Complexity
 
