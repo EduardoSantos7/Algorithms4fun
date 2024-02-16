@@ -1,6 +1,6 @@
 # Algorithm Idea
 
-Iterate the list of numbers while counting their frequency in a hashmap of even numbers. After update the frequency check if it's bigger that a counter initializated in the minimus number possible, this way we save an iteration to check the bigger number. Then iterate the keys and values in the map, if the value is the same as current maximum counter then store the numbe rin a list. Return the first element if the list only conain 1 element, if contains more return the min of the list else return -1
+Iterate the list of numbers while counting their frequency in a hashmap of even numbers. After update the frequency check if it's bigger that a counter initialized in the minimus number possible, this way we save an iteration to check the bigger number. Then iterate the keys and values in the map, if the value is the same as current maximum counter then store the number in a list. Return the first element if the list only contains 1 element, if contains more return the min of the list else return -1
 
 # Complexity
 
