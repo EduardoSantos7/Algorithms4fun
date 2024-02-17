@@ -2,6 +2,7 @@ class Solution:
     def mostFrequentEven(self, nums: List[int]) -> int:
         mem = {}
         curr_max = -inf
+
         for num in nums:
             if num % 2 is not 0:
                 continue
