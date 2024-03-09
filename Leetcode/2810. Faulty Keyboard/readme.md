@@ -1,11 +1,15 @@
 # Algorithm Idea
 
+Iterate all the characters in the string
+for each of them append it in a string variable or a list if it's not "i"
+if it's a a "i" then reverse your list or string
+return the string or list
 
 # Complexity
 
-- Time: O()
+- Time: O(n)
 
-- Space:O()
+- Space:O(n)
 
 # Results
 
