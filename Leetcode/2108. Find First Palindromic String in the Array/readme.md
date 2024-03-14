@@ -8,7 +8,6 @@ Approach 2)
 
 Use two pointer to check if the characters are the same in reverse order for each word
 
-
 return the first that match the condition for both approaches
 
 # Complexity
