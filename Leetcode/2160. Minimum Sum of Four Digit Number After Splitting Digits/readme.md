@@ -1,8 +1,13 @@
 # Algorithm Idea
+
 Convert the number to a string
+
 Create and array of characters base on the number passed in the input
+
 Sort the array formed
+
 sum up the first with the third, and the second with the fourth
+
 Case them both to a int and return their sum
 
 # Complexity
