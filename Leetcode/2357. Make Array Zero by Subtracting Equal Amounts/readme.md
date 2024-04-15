@@ -11,6 +11,7 @@ Return the length of that set after subtracts a set that only contains 0, the id
 
 - Space:O(n)
 
+
 # Results
 
 Runtime
