@@ -5,6 +5,7 @@ The operations applied to numbers with the same value will give the same results
 Create a set base on the array received as parameter.
 Return the length of that set after subtracts a set that only contains 0, the idea is eliminate zero from the set.
 
+
 # Complexity
 
 - Time: O(n)
