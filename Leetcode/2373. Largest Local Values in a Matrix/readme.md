@@ -4,6 +4,7 @@ We are given an integer matrix grid of size N⋅NN \cdot NN⋅N. For each elemen
 
 We will follow the process given in the problem description to generate the new matrix. 3⋅33 \cdot 33⋅3 matrices cannot be created from the last two rows and last two columns as of grid, so we will iterate over the rows from 0 to N - 2 and columns from 0 to N - 2 in the grid. For each cell, we will iterate over the 3⋅33 \cdot 33⋅3 matrix and find the local maximum value. This value will be stored in the new matrix maxLocal.
 
+
 # Complexity
 
 - Time: O(n^2)
