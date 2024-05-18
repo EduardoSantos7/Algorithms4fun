@@ -6,7 +6,7 @@ The point where the sum of both half is equal to the sum of all is the square ro
 
 Approach 2)
 
-Iterate the number comparing the sum of elements in both side till they are the same using n*(a+b)/2 equation. If none return -1
+Iterate the number comparing the sum of elements in both side till they are the same using n*(a+b)/2 equation. If none return -1.
 
 # Complexity
 
