@@ -8,6 +8,7 @@ Approach 2)
 
 Iterate the number comparing the sum of elements in both side till they are the same using n*(a+b)/2 equation. If none return -1.
 
+
 # Complexity
 
 Approach 1)
