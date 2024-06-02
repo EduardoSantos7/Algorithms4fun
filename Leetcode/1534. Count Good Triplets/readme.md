@@ -6,7 +6,7 @@ FenwickTree
 
 - Time: O(n*logn)
 
-- Space:O()
+- Space:O(n)?
 
 # Results
 
