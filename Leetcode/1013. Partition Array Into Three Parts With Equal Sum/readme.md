@@ -12,6 +12,7 @@ Approach 2)
 
 Staring from the two ends of the input array, accumulate left and right parts till getting the average values.
 
+
 If having found average values on both parts before the two pointers meet, return true; otherwise, return false.
 
 
