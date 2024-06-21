@@ -6,6 +6,7 @@ Check if the number can be generated or not, if yes then add it to the list thar
 
 Note: If you go in order from 100 to 999 you don't have to sort the answer list, avoiding nlogn and keeping the answer in n.
 
+
 # Complexity
 
 - Time: O(n)
