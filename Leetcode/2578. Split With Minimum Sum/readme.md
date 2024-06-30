@@ -6,6 +6,7 @@ The idea is based on split the digits into two new numbers in a way tht each cur
 
 Approach 2)
 
+
 Similar idea but instead of sort them just count their frequency with a dictionary and then iterate from 1 to 10 looking in the dictionary for that number and assign each occurrence to one of the resulting numbers. This avoid sorting. 
 
 # Complexity
