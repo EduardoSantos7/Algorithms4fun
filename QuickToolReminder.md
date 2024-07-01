@@ -47,3 +47,6 @@ Examples:
   - Leetcode/2610
 * Buckets:
   - Leetcode/1282
+
+**Interesting Problems**
+-2475 - Counting theory, math 
