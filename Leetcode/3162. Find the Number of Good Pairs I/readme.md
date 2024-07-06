@@ -9,14 +9,11 @@
 
 # Results
 
-
-untime
+Runtime
 51
 ms
 Beats
 69.33%
-
-Analyze Complexity
 
 Memory
 16.41
