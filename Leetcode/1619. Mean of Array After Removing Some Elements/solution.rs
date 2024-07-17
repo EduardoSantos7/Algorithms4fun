@@ -6,6 +6,7 @@ impl Solution {
                          .iter()    // Use iter() to get iterator over &i32
                          .sum();    // Sum the i32 values directly
         let count = arr.len() - 2 * five_percent; // Calculate the number of elements considered in the sum
+        
         sum as f64 / count as f64 // Convert sum and count to f64 for division to return f64
     }
 }
