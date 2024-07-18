@@ -37,3 +37,17 @@ Memory
 MB
 Beats
 58.33%
+
+Golang)
+
+Runtime
+0
+ms
+Beats
+100.00%
+
+Memory
+3.57
+MB
+Beats
+7.14%
