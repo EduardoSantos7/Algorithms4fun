@@ -1,5 +1,8 @@
 # Algorithm Idea
 
+The first min will be the first element and that have to keep like that.
+Declare another two variables for keep track of mins. Iterate the array from the third element and find the second and third min.
+Return the sum of the 3 variables.
 
 # Complexity
 
