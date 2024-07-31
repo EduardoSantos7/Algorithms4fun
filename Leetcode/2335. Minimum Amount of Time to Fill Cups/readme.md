@@ -1,5 +1,7 @@
 # Algorithm Idea
 
+Sort the numbers
+If the largest amount is greater than or equal to the sum of the other two. Otherwise, the answer is the ceiling of total_cups / 2
 
 # Complexity
 
