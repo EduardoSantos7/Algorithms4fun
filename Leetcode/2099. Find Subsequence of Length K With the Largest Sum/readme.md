@@ -1,5 +1,6 @@
 # Algorithm Idea
 
+
 Use a priority queue to get the 3 biggest elements considering their index and build the sequence array to return
 
 # Complexity
