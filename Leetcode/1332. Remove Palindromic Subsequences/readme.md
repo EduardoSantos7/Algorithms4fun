@@ -2,6 +2,7 @@
 
 If it's a palindrome then return 1 else 2, check this for every two characters one pointer from 0 and the other one from n-1.
 
+
 # Complexity
 
 - Time: O(n)
