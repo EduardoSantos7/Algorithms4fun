@@ -2,7 +2,9 @@
 
 Sort the numbers.
 Traverse the array with two pointers, one from the start and the other one from the end.
+
 Take both numbers, sum them up and divide the result by 2 and add it to the average array.
+
 Return the minimum number in the average array
 
 
