@@ -12,7 +12,7 @@ Approach 2)
 Using a variable to get the sum of all the elements from the right.
 Iterate from 0 to n and decrease the right sum by the current number, and increase the left sum by the previous number (if you are at the index 0 the sum is 0).
 Then check if both left and right sum are the same. In that case return i.
-If at the end of the iteration you haven't returned then return -1
+If at the end of the iteration you haven't returned then return -1.
 
 
 # Complexity
