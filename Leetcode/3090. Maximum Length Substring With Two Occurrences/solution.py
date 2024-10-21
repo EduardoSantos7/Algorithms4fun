@@ -11,12 +11,12 @@ class Solution:
                     mem[temp_c] = 1
                 else:
                     mem[temp_c] += 1
-                
+
                 if mem[temp_c] > 2:
                     max_len = max(max_len, j - i)
                     flag = False
                     break
-            
+
             if flag:
                 max_len = max(max_len, len(s) - i)
 
