@@ -4,7 +4,7 @@ Reduction. It could also be implemented in place.
 
 # Complexity
 
-- Time: O(N)
+- Time: O(Log N)
 
 - Space:O(N/2)
 
