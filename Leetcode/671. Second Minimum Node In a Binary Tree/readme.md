@@ -16,6 +16,7 @@ If root.right.val equals root.val, recursively search the right subtree for a ca
 Determine the Second Minimum:
 
 Return the minimum of left and right if both are valid (!=-1).
+
 If only one is valid, return that one.
 If neither is valid, return -1.
 
