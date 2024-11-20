@@ -2,8 +2,11 @@ class Solution:
     def maxSum(self, nums: List[int]) -> int:
         # Create a map key = max digit and value is an array of two that contains the biggest two elements
         mem = dict()
+
         for num in nums:
+
             biggest_number = self._get_biggest_number(num)
+
             if biggest_number not in mem:
                 mem[biggest_number] = [num]
             elif len(mem[biggest_number]) == 1:
@@ -21,9 +24,9 @@ class Solution:
         for i in range(9, 0, -1):
             if len(mem.get(i, [])) == 2:
                 _max = max(_max, sum(mem[i]))
-        
+
         return _max
-    
+
     def _get_biggest_number(self, num: int):
         _max = -1
         while num > 0:
