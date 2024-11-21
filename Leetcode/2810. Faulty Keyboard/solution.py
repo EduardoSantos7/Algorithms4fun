@@ -6,5 +6,5 @@ class Solution:
                 res.append(char)
             else:
                 res.reverse()
-        
+
         return ''.join(res)
