@@ -62,13 +62,11 @@ class Solution:
                 _list = elem.getList()
                 for obj in _list:
                     queue.append(obj)
-                
+
         max_depth = max(depths)
         ans = 0
         # For each number, get its weight and perform operation
         for num, depth in zip(nums, depths):
             ans += num * ((max_depth - depth) + 1)
-        
+
         return ans
-            
-        
