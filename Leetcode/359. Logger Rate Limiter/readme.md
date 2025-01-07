@@ -1,6 +1,6 @@
 # Algorithm Idea
 
-Hastable where the message is the key and the values are the timestamps
+Hastable where the message is the key and the values are the timestamps.
 
 # Complexity
 
