@@ -1,7 +1,7 @@
 class Solution:
     def canThreePartsEqualSum(self, arr: List[int]) -> bool:
         _sum = sum(arr)
-        
+
         # If after split it the resul is not even then is false
         if _sum % 3 != 0:
             return False
@@ -19,5 +19,5 @@ class Solution:
                 return True
             if pl == pr:
                 return False
-        
+
         return False
