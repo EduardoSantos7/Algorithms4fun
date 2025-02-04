@@ -11,13 +11,13 @@ class Solution:
                     right.append(num)
                 else:
                     mid.append(num)
-            
+
             if k <= len(left):
                 return quick_select(left, k)
-            
+
             if len(left) + len(mid) < k:
                 return quick_select(right, k - len(left) - len(mid))
-            
+
             return pivot
-        
+
         return quick_select(nums, k)
