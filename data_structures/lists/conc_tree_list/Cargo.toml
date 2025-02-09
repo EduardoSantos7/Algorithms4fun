@@ -1,0 +1,10 @@
+[package]
+name = "conc_tree_list"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+rand = "0.8"
+rayon = "1.7" 
+plotters = "0.3.1"
