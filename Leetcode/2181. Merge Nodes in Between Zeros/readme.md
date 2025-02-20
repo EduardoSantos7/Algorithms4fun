@@ -6,6 +6,7 @@ Traverse the list with two pointers, where the second one moves till find a 0, m
 
 - Time: O(N)
 
+
 - Space:O(1)
 
 # Results
