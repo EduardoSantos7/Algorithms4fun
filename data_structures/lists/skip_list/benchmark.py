@@ -8,6 +8,7 @@ import ace_tools_open as tools  # Used for displaying tables
 
 from skip_list import SkipList  # Assuming SkipList is implemented in skip_list.py
 
+
 class SkipListBenchmark:
     def __init__(self, plot_results=False):
         """
