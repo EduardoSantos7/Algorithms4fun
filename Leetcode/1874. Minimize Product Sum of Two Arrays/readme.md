@@ -1,5 +1,12 @@
 # Algorithm Idea
 
+Approach 1)
+
+Priority queue/Min and Max Heaps
+
+Approach 2)
+
+Counting Sort
 
 # Complexity
 
