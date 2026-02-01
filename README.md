@@ -1,1 +1,1 @@
-I use these algorithms to practice the languages that I'm learning (Go, Rust and Kotlin) and my interview skills (Python)
+I use these algorithms to practice the languages that I'm learning (Go, Rust and Kotlin) and my interview problems, each problem includes the code in one or more langugages, and probably more than 1 solution with a file explaining the idea behind the solution and its complexity and execution results.
